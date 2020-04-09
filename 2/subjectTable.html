@@ -3,7 +3,9 @@
 <head><meta charset="utf-8"/><meta name="viwport" content="width=device-width, initial-scale=1"/>
 <style>
   table, thead, tbody, tfoot, tr, th, td  {  border:1px solid black; border-collapse:collapse;  text-align: center; }
-  .subject1{  background-color:lightgray; } .subject2{  background-color:#FAF4C0; }
+  .subject1{  background-color:#9FF781; } .subject2{  background-color:#00FFBF; } .subject3{  background-color:#F78181; }
+  .subject4{  background-color:#F5DA81; } .subject5{  background-color:#5882FA; } .subject6{  background-color:#FAAC58; }
+  .subject7{  background-color:#A901DB; }
   th,td{  width:50px; }
 </style>  <!--  border-collapse:collapse 단선으로, 반대는 separate -->
 <title>HTML5 테이블 테스트 실습</title>
@@ -15,15 +17,15 @@
       <tr>  <th>시간</th>  <th>월</th> <th>화</th>  <th>수</th>  <th>목</th>  <th>금</th>  </tr>
     </thead>
     <tbody>
-      <tr>  <td>09~10</td>  <td></td>  <td rowspan="2">오토</td>  <td rowspan="2">자료</td>  <td></td>          <td></td>  </tr>
-      <tr>  <td>10~11</td>  <td></td>                                                               <td></td>      <td></td>  </tr>
-      <tr>  <td>11~12</td>  <td rowspan="2">디지털</td>  <td rowspan="2">자료</td>  <td></td>  <td>오토</td>     <td></td>  </tr>
-      <tr>  <td>12~13</td>                                                           <td></td>  <td></td>          <td></td>  </tr>
-      <tr>  <td>13~14</td>  <td rowspan="2">일본어</td>  <td>디지털</td>  <td></td>  <td rowspan="2">인터넷</td>     <td></td>  </tr>
-      <tr>  <td>14~15</td>                                  <td></td>        <td rowspan="4">C++</td>              <td></td>  </tr>
-      <tr>  <td>15~16</td>  <td></td>  <td></td>                                       <td rowspan="2">멘토링</td>  <td></td>  </tr>
-      <tr>  <td>16~17</td>  <td></td>  <td></td>                                                                   <td></td>  </tr>
-      <tr>  <td>17~18</td>  <td></td>  <td>인터넷</td>                    <td></td>                                 <td></td>  </tr>
+      <tr>  <td>09~10</td>  <td></td>  <td rowspan="2" class="subject1">오토</td>  <td rowspan="2" class="subject2">자료</td>  <td></td>  <td></td>  </tr>
+      <tr>  <td>10~11</td>  <td></td> <td></td> <td></td> </tr>
+      <tr>  <td>11~12</td>  <td rowspan="2" class="subject3">디지털</td>  <td rowspan="2" class="subject2">자료</td> <td></td> <td class="subject1">오토</td> <td></td> </tr>
+      <tr>  <td>12~13</td>  <td></td>  <td></td> <td></td>  </tr>
+      <tr>  <td>13~14</td>  <td rowspan="2" class="subject4">일본어</td>  <td class="subject3">디지털</td>  <td></td> <td rowspan="2" class="subject5">인터넷</td>  <td></td> </tr>
+      <tr>  <td>14~15</td>  <td></td> <td rowspan="4" class="subject6">C++</td>  <td></td> </tr>
+      <tr>  <td>15~16</td>  <td></td> <td></td> <td rowspan="2" class="subject7">멘토링</td>  <td></td> </tr>
+      <tr>  <td>16~17</td>  <td></td> <td></td> <td></td> </tr>
+      <tr>  <td>17~18</td>  <td></td> <td class="subject5">인터넷</td>  <td></td> <td></td> </tr>
     </tbody>
   </table>
 </body>
