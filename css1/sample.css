@@ -1,3 +1,5 @@
+<style>
+header, nav, section, article, aside, footer
   {border:1px solid gray; margin:5px; padding:8px; width:750px;}
   section{width:750px; float:left;}
   section section{width:725px; float:left;}
@@ -15,3 +17,4 @@
     color:red; background-color:transparent; text-decoration:underline;}
   a:active {
    color:blue; background-color:transparent; text-decoration:none;}
+</style>
